@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@200;300;500&display=swap');
+
 * {
     margin: 0 !important;
     box-sizing: border-box;
+    font-family: 'Readex Pro', sans-serif;
 }
 
 .navigation {
@@ -24,6 +27,7 @@
     font-size: 1.2rem;
     text-decoration: none;
     margin: 0px 20px !important;
+    font-weight: 300;
     transition: 0.3s ease;
 }
 
@@ -33,10 +37,16 @@
 }
 
 .sign-up-link {
-    color: #fff !important;
-    padding: 5px 25px 10px 25px;
+    color: #1f1f1f !important;
+    padding: 8px 25px 10px 25px;
     border-radius: 15px;
+    border: 2px solid #2869FE;
+    background-color: #ffffff;
+}
+
+.sign-up-link:hover {
     background-color: #2869FE;
+    color: #ffffff !important;
 }
 
 .menu,

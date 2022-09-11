@@ -57,13 +57,13 @@
 
 /* Media queries */
 
-@media (max-width:1024px) {
+@media (max-width:1050px) {
     .navigation {
         padding: 0px 40px;
     }
 }
 
-@media (max-width:905px) {
+@media (max-width:935px) {
     .navigation {
         padding: 0px 20px;
     }

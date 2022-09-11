@@ -3,7 +3,7 @@
 }
 
 .headline h1 {
-    font-size: 3.5rem;
+    font-size: 3.2rem;
 }
 
 .tagline {
@@ -15,7 +15,7 @@
     color: #ffff;
     border: none;
     background-color: #2869FE;
-    font-size: 1.2rem;
+    font-size: 1rem;
     padding: 15px 30px;
     border-radius: 25px;
     transition: 0.3s ease;
@@ -24,4 +24,16 @@
 .primary-btn:hover {
     background-color: #0f52ec;
     transition: 0.3s ease;
+}
+
+@media (max-width:1050px) {
+
+    .headline h1 {
+        font-size: 2rem;
+    }
+
+    .tagline {
+        font-size: 1.1rem;
+    }
+
 }

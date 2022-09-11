@@ -13,7 +13,7 @@ function Navbar() {
                 </label>
                 <ul className='navigation-links'>
                     <li><a href='#'>Home</a></li>
-                    <li><a href='#'>Contact-Us</a></li>
+                    <li><a href='#'>Discover</a></li>
                     <li><a href='#'>About-Us</a></li>
                     <li className='mx-4'>
                         <a href='#' className='sign-up-link'>

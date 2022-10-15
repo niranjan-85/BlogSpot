@@ -14,7 +14,7 @@ function Navbar() {
                 <ul className='navigation-links'>
                     <li><a href='#'>Home</a></li>
                     <li><a href='#'>Discover</a></li>
-                    <li><a href='#'>About-Us</a></li>
+                    <li><a href='#'>Latest Posts</a></li>
                     <li className='mx-4'>
                         <a href='#' className='sign-up-link'>
                             Sign Up

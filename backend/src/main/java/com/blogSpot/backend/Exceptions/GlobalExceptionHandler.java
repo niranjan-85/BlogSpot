@@ -1,0 +1,16 @@
+package com.blogSpot.backend.Exceptions;
+
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.ExceptionHandler;
+import org.springframework.web.bind.annotation.RestControllerAdvice;
+
+@RestControllerAdvice
+public class GlobalExceptionHandler {
+
+    @ExceptionHandler(ResourceNotFoundException.class)
+    public ResponseEntity<String> resourceNotFoundHandler(ResourceNotFoundException exceptionObject){
+        String errorMsg = exceptionObject.getMessage();
+        return ResponseEntity.badRequest().body(errorMsg);
+    }
+}
